@@ -1,0 +1,6 @@
+name = "TNO: Mein Kleine Sharkler"
+path = "mod/TNO-MKS"
+user_dir = "TNO-MKS"
+replace_path = "events"
+replace_path = "decisions"
+replace_path = "history"
