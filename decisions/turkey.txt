@@ -45,11 +45,11 @@ political_decisions = {
 		picture = form_kellys_irish_brigade
 		potential = {
 			tag = TUR
-			has_country_flag = inonu_taken
-			NOT = {accepted_culture = kurdish}
+			NOT = {has_country_flag = peker_taken}
 		}
 		allow = {
 			nationalism_n_imperialism = 1
+			has_country_flag = inonu_taken
 		}
 		effect = {
 			add_accepted_culture = kurdish
@@ -61,13 +61,15 @@ political_decisions = {
 		picture = megali_idea
 		potential = {
 			tag = TUR
-			has_country_flag = peker_taken
+			NOT = {has_country_flag = inonu_taken}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
+			has_country_flag = peker_taken
 		}
 		effect = {
 			set_country_flag = gokcen_state
+			add_accepted_culture = azerbaijani
 			any_owned = {
 				limit = {
 					OR = {
