@@ -82,25 +82,40 @@ political_decisions = {
 		picture = switch_to_army_tech
 		potential = {
 			tag = JAP
-			NOT = {has_country_flag = phi_ass}
-			has_country_flag = annex_P
 		}
 
 		allow = {
-			has_country_flag = annex_P
-			PHR = { war = no }		
+			SPA_1455 = {
+				owned_by = THIS
+			}
+			SPA_1459 = {
+				owned_by = THIS
+			}
+			SPA_1463 = {
+				owned_by = THIS
+			}
 		}
 
 		effect = {
-		set_country_flag = phi_ass
-				PHI = { 
-					all_core = { 
-						add_province_modifier = {
-							name = ass_jap
-							duration = -1
-							}
-						}
+			set_country_flag = phi_ass
+			SPA_1455 = {
+				add_province_modifier = {
+					name = ass_jap
+					duration = -1
 				}
+			}
+			SPA_1459 = {
+				add_province_modifier = {
+					name = ass_jap
+					duration = -1
+				}
+			}
+			SPA_1463 = {
+				add_province_modifier = {
+					name = ass_jap
+					duration = -1
+				}
+			}
 		}
 	}
 
