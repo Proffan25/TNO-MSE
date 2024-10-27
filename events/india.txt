@@ -214,9 +214,7 @@ country_event = {
 	option = {
 		name = "HELL YEAH!"
 		all_core = {
-			add_province_modifier = {
-				name = thank_jap1
-				duration = -1
+				life_rating = 3
 			}
 		}
 	}

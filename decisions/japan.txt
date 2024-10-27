@@ -31,7 +31,7 @@ political_decisions = {
 		}
 	}
 
-	funny = {
+	ahg_mission_accomplished = {
 		picture = sign_the_geneva_convention
 		potential = {
 			tag = JAP
@@ -93,7 +93,7 @@ political_decisions = {
 
 		effect = {
 		set_country_flag = phi_ass
-				PHR = { 
+				PHI = { 
 					all_core = { 
 						add_province_modifier = {
 							name = ass_jap
