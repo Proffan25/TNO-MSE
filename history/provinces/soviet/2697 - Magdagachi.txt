@@ -1,0 +1,7 @@
+owner = R13
+controller = R13
+add_core = R13
+railroad = 2
+
+trade_goods = grain
+life_rating = 35

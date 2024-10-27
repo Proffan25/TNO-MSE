@@ -1,0 +1,8 @@
+owner = R06
+controller = R06
+add_core = R06
+colonial = 2
+
+
+trade_goods = fish
+life_rating = 15

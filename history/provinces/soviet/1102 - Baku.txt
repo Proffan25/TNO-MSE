@@ -1,0 +1,6 @@
+railroad = 3
+owner = COC
+controller = COC
+add_core = AZB
+trade_goods = oil
+life_rating = 40

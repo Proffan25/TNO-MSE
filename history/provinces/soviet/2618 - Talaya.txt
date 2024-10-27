@@ -1,0 +1,7 @@
+owner = FED
+controller = FED
+add_core = FED
+
+naval_base = 1
+trade_goods = grain
+life_rating = 35

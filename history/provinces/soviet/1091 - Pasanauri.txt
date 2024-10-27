@@ -1,0 +1,6 @@
+
+owner = COC
+controller = COC
+add_core = GEO
+trade_goods = wool
+life_rating = 35

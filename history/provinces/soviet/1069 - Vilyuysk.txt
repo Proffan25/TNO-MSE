@@ -1,0 +1,7 @@
+owner = R12
+controller = R12
+add_core = R12
+
+
+trade_goods = cattle
+life_rating = 15

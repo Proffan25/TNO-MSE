@@ -1,0 +1,234 @@
+political_decisions = {
+	campaign_show ={
+		picture = apply_for_USA_statehood
+		alert = no
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			ai = no
+			NOT = {has_country_flag = show_camp}
+			tag = USA
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = show_camp
+		}
+	}
+
+	campaign_hide ={
+		picture = apply_for_USA_statehood
+		alert = no
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			ai = no
+			has_country_flag = show_camp
+			tag = USA
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_country_flag = show_camp
+		}
+	}
+
+	campaign_liberal = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			set_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			clr_country_flag = go_fascist
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {year = 1982}
+			}
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
+			}
+		}
+	}
+
+	campaign_conservative = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			set_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			clr_country_flag = go_fascist
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {year = 1972}
+			}
+			modifier = {
+				factor = 0
+				year = 1982
+			}
+
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
+			}
+		}
+	}
+
+	campaign_socialist = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			set_country_flag = go_socialist
+			clr_country_flag = go_fascist
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1972
+			}
+
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
+			}
+		}
+	}
+
+	campagin_fascist = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			set_country_flag = go_fascist
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {war = yes}
+			}
+
+
+			modifier = {
+				factor = 0
+				NOT = {
+					any_core = {
+						owner = {
+							war_with = THIS
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	AA_reform = {
+		picture = apply_for_USA_statehood
+		potential = {
+			has_global_flag = acw_start
+			tag = USA
+			NOT= {accepted_culture = afro_american}
+		}
+		allow = {
+			all_core = {
+				OR = {
+					owner = {tag = USA}
+					province_id = 658
+					is_core = PHI
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = afro_american
+		}
+	}
+}

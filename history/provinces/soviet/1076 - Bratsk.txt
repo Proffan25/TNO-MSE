@@ -1,0 +1,7 @@
+owner = R11
+controller = R11
+add_core = R11
+railroad = 2
+
+trade_goods = coal
+life_rating = 35

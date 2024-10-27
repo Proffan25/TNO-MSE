@@ -1,0 +1,6 @@
+owner = OFN
+controller = OFN
+add_core = OFN
+add_core = VNZ
+trade_goods = tropical_wood
+life_rating = 35

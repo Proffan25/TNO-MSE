@@ -1,0 +1,9 @@
+
+owner = NEJ
+controller = NEJ
+add_core = NEJ
+
+
+trade_goods = oil 
+#grain
+life_rating = 35

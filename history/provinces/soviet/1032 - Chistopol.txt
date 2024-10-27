@@ -1,0 +1,8 @@
+owner = R02
+controller = R02
+add_core = R02
+
+
+
+trade_goods = timber
+life_rating = 35

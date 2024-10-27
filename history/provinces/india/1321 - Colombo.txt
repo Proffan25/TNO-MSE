@@ -1,0 +1,9 @@
+owner = GWA
+controller = GWA
+
+add_core = GWA
+
+
+trade_goods = fish
+#trade_goods = rubber
+life_rating = 32

@@ -1,0 +1,7 @@
+owner = COC
+controller = COC
+add_core = COC
+
+railroad = 3
+trade_goods = oil
+life_rating = 40

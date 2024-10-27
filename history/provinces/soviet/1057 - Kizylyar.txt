@@ -1,0 +1,7 @@
+owner = COC
+controller = COC
+add_core = COC
+
+
+trade_goods = silk
+life_rating = 35

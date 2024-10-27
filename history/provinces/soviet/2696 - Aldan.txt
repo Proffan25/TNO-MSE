@@ -1,0 +1,8 @@
+owner = R12
+controller = R12
+add_core = R12
+
+
+
+trade_goods = grain
+life_rating = 35
