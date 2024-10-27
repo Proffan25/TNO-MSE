@@ -302,6 +302,7 @@ political_decisions = {
 			OR = {
 				tag = UKR
 				tag = MSC
+				tag = OST
 				tag = BLT
 				tag = COR
 				tag = WGA
