@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-capital = 1250
+capital = 1251
 primary_culture = bengali
 religion = protestant
 government = presidential_dictatorship
@@ -12,7 +12,7 @@ literacy = 0.2
 civilized = no 
 prestige = 1
 schools = traditional_academic
-oob = "AHG.txt"
+oob = "AHG_oob.txt"
 
 decision = puppet_gp_fix
 #========================= H O U S E - O F - L O R D S =========================

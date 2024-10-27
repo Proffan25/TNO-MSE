@@ -474,16 +474,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -492,16 +482,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -510,16 +490,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -528,16 +498,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -546,16 +506,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -564,16 +514,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -582,16 +522,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -600,16 +530,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -618,16 +538,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -636,16 +546,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -654,16 +554,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -672,16 +562,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -690,16 +570,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -708,16 +578,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -726,16 +586,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 				random_owned = {
 					limit = {
@@ -744,16 +594,6 @@ political_decisions = {
 						NOT = {terrain = jungle}
 						NOT = {terrain = mountain}
 					}
-					sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = infantry value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		            sub_unit = {type = artillery value = current}
-		        	sub_unit = {type = artillery value = current}
-		            sub_unit = {type = hussar value = current}
 				}
 			}
 

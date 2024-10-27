@@ -36,12 +36,6 @@
 		size = 869
 	}
 
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 13740
-	}
-
 	farmers = {
 		culture = rajput
 		religion = protestant
@@ -69,7 +63,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 2987.5
+		size = 16740
 	}
 
 	farmers = {
@@ -143,7 +137,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 13740
+		size = 15340
 	}
 
 	farmers = {
@@ -170,12 +164,6 @@
 		culture = rajput
 		religion = protestant
 		size = 4740
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 995
 	}
 
 	farmers = {
@@ -217,7 +205,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 13740
+		size = 14740
 	}
 
 	farmers = {
@@ -277,12 +265,6 @@
 		size = 7900
 	}
 
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 3185
-	}
-
 	farmers = {
 		culture = rajput
 		religion = protestant
@@ -325,12 +307,6 @@
 		size = 3950
 	}
 
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 2469
-	}
-
 	farmers = {
 		culture = rajput
 		religion = protestant
@@ -370,7 +346,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 11950
+		size = 17604
 	}
 
 	farmers = {
@@ -408,7 +384,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 9555
+		size = 10555
 	}
 
 	farmers = {
@@ -433,12 +409,6 @@
 		culture = rajput
 		religion = protestant
 		size = 7900
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 995
 	}
 
 	farmers = {
@@ -498,7 +468,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 15135
+		size = 18135
 	}
 
 	farmers = {
@@ -529,12 +499,6 @@
 		culture = rajput
 		religion = protestant
 		size = 5530
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 2987.5
 	}
 
 	farmers = {
@@ -590,7 +554,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 15135
+		size = 16735
 	}
 
 	farmers = {
@@ -615,12 +579,6 @@
 		culture = rajput
 		religion = protestant
 		size = 2765
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 1592.5
 	}
 
 	farmers = {
@@ -670,7 +628,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 13740
+		size = 16209
 	}
 
 	farmers = {
@@ -695,12 +653,6 @@
 		culture = rajput
 		religion = protestant
 		size = 2370
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 2469
 	}
 
 	farmers = {
@@ -744,7 +696,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 9555
+		size = 10555
 	}
 
 	farmers = {
@@ -769,12 +721,6 @@
 		culture = rajput
 		religion = protestant
 		size = 1580
-	}
-
-	soldiers = {
-		culture = rajput
-		religion = protestant
-		size = 995
 	}
 
 	farmers = {
@@ -888,7 +834,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 31850
+		size = 38899
 	}
 
 	farmers = {
@@ -906,7 +852,7 @@
 	bureaucrats = {
 		culture = bengali
 		religion = protestant
-		size = 395
+		size = 800
 	}
 
 	clergymen = {
@@ -921,22 +867,16 @@
 		size = 7900
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 2469
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
-		size = 49967.5
+		size = 49967
 	}
 
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 434.5
+		size = 434
 	}
 
 	officers = {
@@ -946,21 +886,9 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = bengali
 		religion = protestant
-		size = 39.5
-	}
-
-	bureaucrats = {
-		culture = british
-		religion = protestant
-		size = 395
-	}
-
-	soldiers = {
-		culture = british
-		religion = protestant
-		size = 4580
+		size = 39
 	}
 }
 #Darjeeling (3248000/812000 POPS)
@@ -1001,12 +929,6 @@
 		size = 395
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 14740
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
@@ -1034,7 +956,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 4580
+		size = 22245
 	}
 
 	farmers = {
@@ -1096,7 +1018,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 21900
+		size = 23500
 	}
 
 	farmers = {
@@ -1115,12 +1037,6 @@
 		culture = bengali
 		religion = protestant
 		size = 3752.5
-	}
-
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 1592.5
 	}
 
 	farmers = {
@@ -1170,7 +1086,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 15530
+		size = 27480
 	}
 
 	farmers = {
@@ -1209,12 +1125,6 @@
 		size = 6320
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 11950
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
@@ -1250,13 +1160,13 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 8962.5
+		size = 13542
 	}
 
 	farmers = {
 		culture = bengali
 		religion = protestant
-		size = 279462.5
+		size = 279462
 	}
 
 	aristocrats = {
@@ -1275,12 +1185,6 @@
 		culture = bengali
 		religion = protestant
 		size = 7900
-	}
-
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 4580
 	}
 
 	farmers = {
@@ -1318,7 +1222,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 8962.5
+		size = 11740
 	}
 
 	farmers = {
@@ -1343,12 +1247,6 @@
 		culture = bengali
 		religion = protestant
 		size = 7900
-	}
-
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 2777.5
 	}
 
 	farmers = {
@@ -1404,7 +1302,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 20715
+		size = 36152
 	}
 
 	farmers = {
@@ -1443,12 +1341,6 @@
 		size = 7110
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 14740
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
@@ -1473,12 +1365,6 @@
 		size = 395
 	}
 
-	soldiers = {
-		culture = asian_minor
-		religion = protestant
-		size = 697.5
-	}
-
 	farmers = {
 		culture = asian_minor
 		religion = protestant
@@ -1491,7 +1377,7 @@
 #Gauhati (1060000/265000 POPS)
 1258 = {
 	bureaucrats = {
-		culture = british
+		culture = bengali
 		religion = protestant
 		size = 19.75
 	}
@@ -1523,7 +1409,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 2585
+		size = 4575
 	}
 
 	farmers = {
@@ -1550,12 +1436,6 @@
 		size = 1975
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 995
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
@@ -1566,12 +1446,6 @@
 		culture = asian_minor
 		religion = protestant
 		size = 395
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = protestant
-		size = 995
 	}
 
 	artisans = {
@@ -1609,7 +1483,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 2469
+		size = 4162
 	}
 
 	farmers = {
@@ -1630,12 +1504,6 @@
 		size = 1580
 	}
 
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 995
-	}
-
 	farmers = {
 		culture = bengali
 		religion = protestant
@@ -1652,12 +1520,6 @@
 		culture = asian_minor
 		religion = protestant
 		size = 197.5
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = protestant
-		size = 697.5
 	}
 
 	artisans = {
@@ -1695,7 +1557,7 @@
 	soldiers = {
 		culture = bengali
 		religion = protestant
-		size = 2469
+		size = 4938
 	}
 
 	farmers = {
@@ -1714,12 +1576,6 @@
 		culture = asian_minor
 		religion = protestant
 		size = 395
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = protestant
-		size = 2469
 	}
 
 	farmers = {
@@ -1751,7 +1607,7 @@
 	soldiers = {
 		culture = asian_minor
 		religion = protestant
-		size = 2469
+		size = 2569
 	}
 
 	farmers = {
@@ -1770,12 +1626,6 @@
 		culture = bengali
 		religion = protestant
 		size = 2172.5
-	}
-
-	soldiers = {
-		culture = bengali
-		religion = protestant
-		size = 995
 	}
 
 	farmers = {
@@ -1820,7 +1670,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 5777.5
+		size = 5777
 	}
 
 	farmers = {
@@ -1836,7 +1686,7 @@
 	}
 
 	bureaucrats = {
-		culture = british
+		culture = bengali
 		religion = protestant
 		size = 19.75
 	}
@@ -1871,7 +1721,7 @@
 	soldiers = {
 		culture = rajput
 		religion = protestant
-		size = 9160
+		size = 9858
 	}
 
 	farmers = {
@@ -1896,12 +1746,6 @@
 		culture = asian_minor
 		religion = protestant
 		size = 869
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = protestant
-		size = 697.5
 	}
 
 	farmers = {
