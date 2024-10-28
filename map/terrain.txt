@@ -16,7 +16,7 @@ categories =  {
 		mine_rgo_size = -0.0
 		mine_rgo_eff = -0.2
 		min_build_railroad = 1
-		supply_limit = 4
+		supply_limit = 14
 	}
 
 	farmlands = {
@@ -27,7 +27,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 10
+		supply_limit = 26
 	}
 	
 	forest = {
@@ -39,7 +39,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 18
 		combat_width = -0.20
 	}
 	hills = {
@@ -51,7 +51,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 18
 		min_build_railroad = 1
 		combat_width = -0.33
 	}
@@ -64,7 +64,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 18
 		combat_width = -0.20
 	}
 	
@@ -76,7 +76,7 @@ categories =  {
 		farm_rgo_eff = -0.25
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2
+		supply_limit = 10
 		
 		combat_width = -0.66
 		
@@ -91,7 +91,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 8
+		supply_limit = 22
 
 	}
 	plains = {
@@ -101,7 +101,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 10
+		supply_limit = 26
 
 	}
 
@@ -113,7 +113,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 2
+		supply_limit = 10
 		min_build_railroad = 2
 		combat_width = -0.25
 	}	
@@ -127,7 +127,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 2
+		supply_limit = 10
 		min_build_railroad = 2
 		combat_width = -0.25
 	}
@@ -140,6 +140,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
+		supply_limit = 6
 	}
 	
 	coastal_desert = {
@@ -149,7 +150,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2
+		supply_limit = 10
 	}	
 }
 

@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-civilized = no
+civilized = yes
 capital = 599
 primary_culture = north_german
 culture = south_german
@@ -21,13 +21,13 @@ decision = nuke_startup
 
 ruling_party = generic_fascist
 upper_house = {
-fascist = 90
-reactionary = 0
-conservative = 0
-socialist = 10
-communist = 0
-liberal = 0
-anarcho_liberal = 0
+	fascist = 90
+	reactionary = 0
+	conservative = 0
+	socialist = 10
+	communist = 0
+	liberal = 0
+	anarcho_liberal = 0
 }
 slavery = no_slavery
 vote_franschise = none_voting

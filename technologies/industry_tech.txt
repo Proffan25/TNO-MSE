@@ -1015,8 +1015,6 @@ medicine = {
 	area = chemistry_and_electricity
 	year = 1962
 	cost = 7200
-
-	supply_limit = 0.25
 	
 	ai_chance = {
 		factor = 1.5
@@ -1038,8 +1036,6 @@ inorganic_chemistry = {
 	area = chemistry_and_electricity
 	year = 1976
 	cost = 10800
-
-	supply_limit = 0.25
 	
 	ai_chance = {
 		factor = 1.1
@@ -1073,8 +1069,6 @@ organic_chemistry = {
 	area = chemistry_and_electricity
 	year = 1996
 	cost = 14400
-
-	supply_limit = 0.25
 	
 	ai_chance = {
 		factor = 1.1
@@ -1109,7 +1103,7 @@ electricity = {
 	year = 2006
 	cost = 18000
 	
-	supply_limit = 0.50
+	supply_limit = 0.25
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1144,7 +1138,7 @@ synthetic_polymers = {
 	year = 2045
 	cost = 21600
 
-	supply_limit = 0.50
+	supply_limit = 0.25
 	ai_chance = {
 		factor = 1.1
 		modifier = {
