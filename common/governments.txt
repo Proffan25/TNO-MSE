@@ -42,7 +42,7 @@ fascist_dictatorship =
 	conservative = yes
 	
 	election = no
-	appoint_ruling_party = no
+	appoint_ruling_party = yes
 	flagType = fascist
 }
  
@@ -65,7 +65,7 @@ prussian_constitutionalism = {
 	fascist = yes
 	
 	election = yes
-	duration = 42
+	duration = 1440
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
@@ -81,7 +81,7 @@ hms_government = {
 	
 	
 	election = yes
-	duration = 42
+	duration = 1440
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
@@ -97,8 +97,8 @@ democracy = {
 	
 	
 	election = yes
-	duration = 42
-	appoint_ruling_party = no
+	duration = 1440
+	appoint_ruling_party = yes
 }
  
 democracy2 = {
@@ -112,7 +112,7 @@ democracy2 = {
 	
 	
 	election = yes
-	duration = 30
-	appoint_ruling_party = no
+	duration = 1440
+	appoint_ruling_party = yes
 }
  

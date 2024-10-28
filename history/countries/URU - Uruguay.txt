@@ -60,26 +60,19 @@ nonstate_consciousness = 0
 
 oob = "URU_oob.txt"
 2059.1.1 = {
-	oob = "/1861/URU_oob.txt"
-	plurality = 60
-	literacy = 0.17
-	non_state_culture_literacy = 0.17
-}
-2059.1.1 = {
+	government = democracy
 
-government = democracy
+	# Political reforms
+	slavery = no_slavery
+	upper_house_composition = state_equal_weight
+	vote_franschise = wealth_voting
+	public_meetings = yes_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
+	voting_system = first_past_the_post
+	political_parties = gerrymandering
 
-# Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = gerrymandering
-
-ruling_party = URU_conservative
+	ruling_party = URU_conservative
 }
 
 2059.1.1 = {

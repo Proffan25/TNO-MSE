@@ -64,9 +64,6 @@ nonstate_consciousness = 0
 
 oob = "ARG_oob.txt"
 2059.1.1 = {
-	oob = "/1861/ARG_oob.txt"
-}
-2059.1.1 = {
 civilized = yes
 capital = 2348
 primary_culture = platinean
