@@ -1,1 +1,9 @@
 the_doctrine_of_fascism;Musk Buys Twitter;La doctrine du fascisme;Die faschistische Doktrin;;La doctrina del fascismo;;;;;;;;;x;;;;
+gas;Drone Strikes;Attaque aux gaz;Gasangriff;;Ataque de gases;;;;;;;;x;;;
+COMBAT_GAS;Drone Strikes while the opponent lacks the technology to defend against it may be devastating.;;;;;;;;;;;;x;;;
+gas_attack_capability;Drone Strike Capability;Attaque aux gaz;;;Capac. ataques con gas;;;;;;;;;x;;;;
+gas_attack_capability_desc;By grabbing cheap off the drone shelves and strapping them with a shitload of bombs we have made an effetive weapon.;;;;;;;;;;;;;x;;;;
+gas_defense_capability;Drone Strike Defense Capability;;;;Capac. defensa contra gas;;;;;;;;;x;;;;
+gas_defense_capability_desc;By introducing lasers and micro wave emitters we have warded off drones and made vic2 combat more boring.;;;;;;;;;;;;;x;;;;
+MAY_GAS_ATTACK;Can use Drone Strikes\n;\n;\n;;\n;;;;;;;;x;;;
+MAY_GAS_DEFEND;Can defend against Drone Strikes\n;\n;\n;;\n;;;;;;;;x;;;
