@@ -66,8 +66,17 @@ BOL = {
 }
 
 army = {
-	name = "1a Armata" #done
-	location = 89
+	name = "Army of the Philipinnes" #done
+	location = 1455
+	leader = {
+		name = "Douglas MacArthur"
+		date = 1940.1.1
+		type = land
+		personality = defence_5.1
+		background = attack_5.1
+		prestige = 0.3
+	}
+
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
