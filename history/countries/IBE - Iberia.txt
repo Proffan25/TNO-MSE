@@ -12,7 +12,7 @@ plurality = 10
 nationalvalue = nv_equality
 literacy = 0.5
   
-prestige = 40
+prestige = 1000
 schools = traditional_academic
 oob = "IBE.txt"
 

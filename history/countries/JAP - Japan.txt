@@ -10,7 +10,7 @@ literacy = 0.50
  
 decision = nuke_startup
 
-prestige = 90
+prestige = 1000
 ruling_party = NIP_reactionary
 upper_house = {
 	fascist = 0

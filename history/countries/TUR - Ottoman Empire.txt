@@ -9,7 +9,7 @@ literacy = 0.2
  
 
 #GreaterPowers = prestige
-prestige = 20 #was 40
+prestige = 1000 #was 40
 
 # Political reforms
 slavery = no_slavery

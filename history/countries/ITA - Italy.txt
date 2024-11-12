@@ -41,9 +41,9 @@ upper_house = {
 	oob = "ITA_oob.txt"
 
 
-	prestige = 75
-	literacy = 0.32
-	non_state_culture_literacy = 0.32
+prestige = 1000
+literacy = 0.32
+non_state_culture_literacy = 0.32
 	
 post_nelsonian_thought = 1
 clipper_design = 1

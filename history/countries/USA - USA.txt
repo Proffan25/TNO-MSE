@@ -15,7 +15,7 @@ decision = nuke_startup
 decision = usa_setup
 
 #GreaterPowers = prestige
-prestige = 30
+prestige = 1000
 
 # Political reforms
 slavery = no_slavery
