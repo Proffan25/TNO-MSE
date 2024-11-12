@@ -1,0 +1,182 @@
+# The idea is that the event that starts the war for each country sends 
+# a message asking each gp to be their warlod
+# We can also remove the stupid stuff, so no GER backing Cameroon 
+# We are going to use as test and example free france and Cameroon
+# First, if they're in the sphere, ignore everything and force them to be in the war. 
+# If you don't want to join those wars unsphere lol, skill issue
+# 
+# Can we do variables for tags?
+
+country_event = {
+	id = 500281
+	title = "$FROMCOUNTRY$ is asking for our help as a sphereling"
+	desc = "They're our sphere, we need to protect them, we can look bad in the GP club!"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = "We will help!"
+	}
+}
+
+country_event = {
+	id = 500282
+	title = "$FROMCOUNTRY$ is asking for our help as a rando"
+	desc = "They're not in our sphere, so we can tell them to fuck off if we want to"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes we can!"
+		random_country = {
+			limit = {
+				FROM = { part_of_sphere = no }
+				OR = {
+					AND = {
+						FROM = { has_country_flag = proxy_war_defender }
+						THIS = { NOT = { any_sphere_member = { has_country_flag = proxy_war_attacker } } }
+					}
+					AND = {
+						FROM = { has_country_flag = proxy_war_attacker }
+						THIS = { NOT = { any_sphere_member = { has_country_flag = proxy_war_defender } } }
+					}
+				}
+			}
+			THIS = {
+				diplomatic_influence = { 
+					who = FROM 
+					value = 500   # Please just give me an effect to add to sphere I beg you
+				}
+				create_alliance = FROM
+			}
+		}
+	}
+
+	option = {
+		name = "Fuck off!"
+	}
+}
+
+### Events for the specific countries
+
+country_event = {
+	id = 500290
+	title = "West African War!"
+	desc = "The African-Cameroonians are too woke and want to great replace us in our birthplace of ivory coast."
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		tag = CFR
+		year = 1963
+		month = 2
+		war = no
+		exists = NGA
+	}
+
+	immediate = {
+		NGA = { 
+			country_event = 500291
+			country_event = { id = 500293 days = 90 }
+		}
+		set_country_flag = proxy_war_defender
+	}
+
+	option = {
+		name = "Ask the great powers for help!"
+		random_country = {
+			limit = {
+				is_sphere_leader_of = CFR
+			}
+			country_event = 500281
+		}
+
+		USA = {	country_event = { id = 500282 days = 10 } }
+		TUR = {	country_event = { id = 500282 days = 20 } }
+		SPA = {	country_event = { id = 500282 days = 30 } }
+		ITA = {	country_event = { id = 500282 days = 40 } }
+		HND = {	country_event = { id = 500282 days = 60 } }
+		JAP = {	country_event = { id = 500282 days = 50 } }
+	}
+}
+
+country_event = {
+	id = 500291
+	title = "West African War!"
+	desc = "The settler colonials of free france have for too long not paid for their sins. They will pay for not giving citizenship to the senegalese tirailleurs!"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = proxy_war_attacker
+	}
+
+	option = {
+		name = "Ask the yanks for help!"
+		random_country = {
+			limit = {
+				is_sphere_leader_of = NGA
+			}
+			country_event = 500281
+		}
+
+		JAP = {	country_event = { id = 500282 days = 10 } }
+		ITA = {	country_event = { id = 500282 days = 20 } }
+		HND = {	country_event = { id = 500282 days = 30 } }
+		USA = {	country_event = { id = 500282 days = 40 } }
+		TUR = {	country_event = { id = 500282 days = 50 } }
+		SPA = {	country_event = { id = 500282 days = 60 } }
+		BRG = {	country_event = { id = 500282 days = 70 } }
+	}
+}
+
+country_event = {
+	id = 500293
+	title = "The war begins!"
+	desc = "Sod the french!"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = proxy_war_attacker
+	}
+
+	option = {
+		name = "To war!"
+		leave_alliance = CFR
+		war = {
+			target = CFR 
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = status_quo }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+		#sphere_owner = {
+		#	war = {
+		#		target = NGA 
+		#		attacker_goal = { casus_belli = status_quo }
+		#		defender_goal = { casus_belli = status_quo }
+		#		call_ally = no
+		#	}
+		#}
+		#CFR = {
+		#	sphere_owner = {
+		#		war = {
+		#			target = NGA 
+		#			attacker_goal = { casus_belli = status_quo }
+		#			defender_goal = { casus_belli = status_quo }
+		#			call_ally = no
+		#		}
+		#	}
+		#}
+	}
+}
