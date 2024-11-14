@@ -17,9 +17,9 @@ country_event = {
 
 	option = {
 		name = "We will help!"
+		create_alliance = FROM
 	}
 }
-
 country_event = {
 	id = 500282
 	title = "$FROMCOUNTRY$ is asking for our help as a rando"
@@ -56,6 +56,50 @@ country_event = {
 
 	option = {
 		name = "Fuck off!"
+	}
+}
+
+country_event = {
+	id = 500283
+	title = "We have lost the proxy war"
+	desc = "This shit fucking sucks"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = {
+		sphere_owner = { prestige = -50 }
+		any_country = {
+			limit = { vassal_of = THIS }
+			set_country_flag = proxy_war_loser
+		}
+	}
+
+	option = {
+		name = "Goodbye cruel world!"
+		annex_to = THIS
+	}
+}
+
+country_event = {
+	id = 500284
+	title = "We have won the proxy war"
+	desc = "Yay!"
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	immediate = {
+		sphere_owner = { prestige = 50 }
+	}
+
+	option = {
+		name = "Come to papa!"
+		any_country = {
+			limit = { has_country_flag = proxy_war_loser }
+			clr_country_flag = proxy_war_loser
+			annex_to = THIS
+		}
 	}
 }
 
@@ -154,29 +198,9 @@ country_event = {
 		leave_alliance = CFR
 		war = {
 			target = CFR 
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
-			attacker_goal = { casus_belli = status_quo }
-			defender_goal = { casus_belli = status_quo }
+			attacker_goal = { casus_belli = proxy_war }
+			defender_goal = { casus_belli = proxy_war }
 			call_ally = yes
 		}
-		#sphere_owner = {
-		#	war = {
-		#		target = NGA 
-		#		attacker_goal = { casus_belli = status_quo }
-		#		defender_goal = { casus_belli = status_quo }
-		#		call_ally = no
-		#	}
-		#}
-		#CFR = {
-		#	sphere_owner = {
-		#		war = {
-		#			target = NGA 
-		#			attacker_goal = { casus_belli = status_quo }
-		#			defender_goal = { casus_belli = status_quo }
-		#			call_ally = no
-		#		}
-		#	}
-		#}
 	}
 }
