@@ -1133,8 +1133,8 @@ ask_for_outer_manchuria_title;The Manchurian Compromise;x
 ask_for_outer_manchuria_desc;Although we have asserted out dominance over Eastern Siberia, we are nowhere close to being capable of directly contesting the Empire of Japan over our former territory of Primorsky. Certainly our only option is diplomacy. §RIf Japan accepts we will get Ulusamudan, Utchan, and Saghalian Oula. In exchange we will lose our cores on Boli and Vladivostok, and Japan will lose 5 infamy.;x
 siberian_supply;Local Supply Sourcing;x
 siberian_supply_desc;Some nations, due to their remote geography, have become experts when it comes to fighting in barren high attrition locations.;x
-proxy_war;Proxy War Intervention;x
-proxy_war_short;Force $RECIPIENT$ to surrender their main war. (If you see this, report it! This is a bug.);x
+proxy_war;Proxy War;x
+proxy_war_short;Annexes $RECIPIENT$ and takes 50 prestige from their sphere lord.;x
 proxy_war_setup;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
 proxy_war_desc;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
 proxy_war_real;Proxy War Intervention;x
