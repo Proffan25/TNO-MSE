@@ -220,8 +220,6 @@ unification_annex_casus_belli;War of Unification;Guerre d'unification;Vereinigun
 unification_annex_casus_belli_desc;Liberate core territory of our §YCultural Union§W.;Libérez un territoire clé de notre §Yunion culturelle§W.;Befreien Sie das Kerngebiet unserer §YKulturunion§W;;Liberar territorio fundamental de nuestra §Yunión cultural§W;;;;;;;;;x;;
 unification_annex_casus_belli_setup;Liberate core territory of our §YCultural Union§W.;Libérez un territoire clé de notre §Yunion culturelle§W.;Befreien Sie das Kerngebiet unserer §YKulturunion§W;;Liberar territorio fundamental de nuestra §Yunión cultural§W;;;;;;;;;x;;
 unification_annex_casus_belli_short;Annexation;Annexion;Annektierung;;Anexión;;;;;;;;;x;;
-enlightenment_thought;The Rights of Man;Les droits de l'homme;Die Menschenrechte;;Los derechos del hombre;;;;;;;;;x;;
-enlightenment_thought_desc;The Rights of Man;Les droits de l'homme;Die Menschenrechte;;Los derechos del hombre;;;;;;;;;x;;
 NORMAL_WAR_UNIFICATION_ANNEX_NAME;$ORDER$ $FIRST$ Liberation of $SECOND_COUNTRY$;$ORDER$ $FIRST$ libération de $SECOND_COUNTRY$;$ORDER$$FIRST$e Befreiung von $SECOND_COUNTRY$;;$ORDER$ Liberación $FIRST$ de $SECOND_COUNTRY$;;;;;;;;;x;;
 AGRESSION_WAR_UNIFICATION_ANNEX_NAME;$ORDER$ $FIRST$ Liberation of $SECOND_COUNTRY$;$ORDER$ $FIRST$ libération de $SECOND_COUNTRY$;$ORDER$$FIRST$e Befreiung von $SECOND_COUNTRY$;;$ORDER$ Liberación $FIRST$ de $SECOND_COUNTRY$;;;;;;;;;x;;
 springtime_of_nations;The Springtime of Nations!;Le Printemps des nations !;Frühling der Nationen!;;¡La primavera de las naciones!;;;;;;;;;x;;
