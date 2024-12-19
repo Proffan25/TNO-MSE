@@ -27,7 +27,7 @@ revolution_n_counterrevolution_desc;The New World Order;;Revolution & Konterrevo
 mass_politics;Unipolar World;Politique de masse;Massenpolitik;; de masas;;;;;;;;;x;;;;
 mass_politics_desc;Unipolar World;Politique de masse;Massenpolitik;; de masas;;;;;;;;;x;;;;
 #CREDIT to Keving for the Following;;;;;;;;;;;;;;x
-z1manage_grants_title;Â§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_title;§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
 z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x
 requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
