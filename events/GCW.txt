@@ -166,7 +166,7 @@ country_event = {
 country_event = {
 	id = 500001
 	title = "We have won the German Civil War!"
-	desc = "Hasta la victoria siempre!"
+	desc = "In a hundred years time, perhaps, a great man will appear who may offer them a chance at salvation. He'll take me as a model, use my ideas, and follow the course I have charted"
 	trigger = {
 		# If germany doesn't exist everything is mega fucked, talk to your gm
 		exists = GER
@@ -206,7 +206,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Ein Volk, ein Reich, ein FÃ¼hrer"
+		name = "Ein Volk, ein Reich, ein Führer"
 		change_tag_no_core_switch = GER
 		GER = { country_event = { id = 500002 days = 1 } }
 	}
