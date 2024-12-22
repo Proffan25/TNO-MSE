@@ -156,6 +156,11 @@ country_event = {
 				call_ally = no
 			}
 		}
+
+		SGE = { add_country_modifier = { name = ger_totale_krieg duration = -1 }}
+		BGE = { add_country_modifier = { name = ger_totale_krieg duration = -1 }}
+		GGE = { add_country_modifier = { name = ger_totale_krieg duration = -1 }}
+		GE = { add_country_modifier = { name = ger_totale_krieg duration = -1 }}
 	}
 	
 	option = {
@@ -206,9 +211,14 @@ country_event = {
 	}
 
 	option = {
-		name = "Ein Volk, ein Reich, ein Führer"
+		name = EIN_VOLK_EIN_FUHRER
 		change_tag_no_core_switch = GER
 		GER = { country_event = { id = 500002 days = 1 } }
+
+		SGE = { remove_country_modifier = ger_totale_krieg }
+		BGE = { remove_country_modifier = ger_totale_krieg }
+		GGE = { remove_country_modifier = ger_totale_krieg }
+		HGE = { remove_country_modifier = ger_totale_krieg }
 	}
 }
 

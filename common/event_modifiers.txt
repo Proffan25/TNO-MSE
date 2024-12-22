@@ -1285,3 +1285,9 @@ liberian_research_boost = {
 requested_grant = {
 	icon = 10
 }
+
+# GCW
+
+ger_totale_krieg = {
+	tax_efficiency = 0.5
+}
